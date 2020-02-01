@@ -16,11 +16,10 @@
     "url": "https://github.com/akakioussis/MyModSite/issues"
   },
   "homepage": "https://github.com/akakioussis/MyModSite#readme",
-  "dependencies": {
-    "gulp-sass": "^4.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
   }
 }
