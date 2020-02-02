@@ -23,6 +23,8 @@ gulp.task("build", async function() {
   gulp.src("./src/assets/**").pipe(gulp.dest("./dist/assets/"));
 
   gulp.src("./src/*.html").pipe(gulp.dest("./dist"));
+
+  gulp.src("./*.js").pipe(gulp.dest("./dist"));
 });
 
 function watch() {
